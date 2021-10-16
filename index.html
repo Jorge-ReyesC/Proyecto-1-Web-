@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/Proyecto1/css/main.css">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="icon" href="https://pbs.twimg.com/media/DjtbaunWwAIrqD8?format=jpg&name=large">
+        <title>Wuasho Store Proyecto 1</title>
+        
+      </head>
+    <body>
+      
+
+      <!-- navbar-->
+      <nav id="principal-navbar" class="navbar navbar-expand-lg navbar-light p-1 fixed-top  " data-navbar-on-scroll="data-navbar-on-scroll"  id="menu" >
+          <div class="container-fluid">
+            <a title="Wuasho Computer Store" href="index.html"><img src="/Proyecto1/imagenes/logo_final.png" alt='logo empresa' width="200" title='Logo empresa'></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/Proyecto1/index.html" >Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#SSDM2NVMe">SSD M.2 NVMe</a></li>
+                    <li><a class="dropdown-item" href="#SSDSATA">SSD SATA</a></li>
+                    <li><a class="dropdown-item" href="#SSDM2">SSD M.2 SATA3</a></li>
+                    <li><a class="dropdown-item" href="#SSDM2PCIe">SSD M.2 PCIe</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-item ">
+                  <a class="nav-link font-weight " href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" >Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li> 
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <hr>
+      
+      <!-- carousel-->
+      <div class="main">
+        
+        <div class="container my-5  px-xxl-5 mt-0 ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/Proyecto1/imagenes/Carousel-Ofertas/oferta 1.png" class="d-block w-100" alt="Carousel Oferta 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Proyecto1/imagenes/Carousel-Ofertas/oferta 2.png" class="d-block w-100" alt="Carousel Oferta 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Proyecto1/imagenes/Carousel-Ofertas/oferta 3.png" class="d-block w-100" alt="Carousel Oferta 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Secciones o Section-->
+      <hr>
+      <section >
+        <div class="container-fluid">
+          <div class="row flex-nowrap">
+              <div class="col-auto  " id="color-navbar"  >
+                  <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 ">
+                      <a class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Categorias Productos</span>
+                      </a>
+                      <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"> <span class="ms-1 d-none d-sm-inline">Inicio</span></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle" >
+                            <i class="fs-4 bi-grid"><span class="ms-1 d-none d-sm-inline">Productos</span> </a></i> 
+                              <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                    <li class="w-100">
+                                      <a href="#SSDM2NVMe" class="nav-link px-0 fs-4 text-info" > <span class="d-none d-sm-inline">SSD</span> M.2 NVMe</a>
+                                    </li>
+                                    <li>
+                                      <a href="#SSDSATA" class="nav-link px-0 fs-4 text-info"> <span class="d-none d-sm-inline">SSD </span> SATA</a>
+                                    </li>
+                                    <li>
+                                      <a href="#SSDM2" class="nav-link px-0 fs-4 text-info"> <span class="d-none d-sm-inline">SSD</span> M2 SATA3</a>
+                                    </li>
+                                    <li>
+                                      <a href="#SSDM2PCIe" class="nav-link px-0 fs-4 text-info"> <span class="d-none d-sm-inline">SSD</span> M.2 PCIe</a>
+                                    </li>
+                                </ul>
+                          </li>
+                      </ul>
+                        <hr>  
+                  </div>
+                  </div>
+                  <div class="col py-3">
+                    <div class="row">
+                      <img src="/Proyecto1/imagenes/prueba.png">
+                      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                          <div class="col mb-5">
+                              <div>
+                              </div>                            
+                              <div class="card h-100">
+                                  <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen del producto-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 1.png" alt="Producto Destacado 1" />
+                                  <!-- Detalles de la carta-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre del producto-->
+                                          <h5 class="fw-bolder fs-3">Gigabyte AORUS Gen4 SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: GP-AG42TB <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <!-- Valoracion del producto-->
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-half"></div>
+                                        </div>
+                                        <p class="fs-5"> valoracion 9/10</p>
+                                        <!-- Precio Del Producto-->
+                                        <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$400.000 CLP</span>
+                                        <span class="text-danger fs-2 fw-bolder">$380.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent ">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/90835-gigabyte-aorus-gen4-2-tb-gp-ag42tb" target="_blank">Caracteristicas</a></div>
+                                      
+                                      
+                                  </div>
+                                  
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                  <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen del producto-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 2.png" alt="Producto Destacado 2" />
+                                  <!-- Detalles-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre del producto-->
+                                          <h5 class="fw-bolder fs-3">Team T-Force Cardea Ceramic C440 SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: TM8FPA002T0C410 <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <!-- Estrellas de clasificacion -->
+                                          <div class="d-flex justify-content-center small text-warning mb-2">
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-half"></div>
+                                          </div>
+                                          <p class="fs-5"> valoracion 9/10</p>
+                                          <!-- Precio Del Producto-->
+                                          <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$420.000 CLP</span>
+                                          <span class="text-danger fs-2 fw-bolder">$400.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/86081-team-t-force-cardea-ceramic-c440-2-tb-tm8fpa002t0c410 "  target="_blank">Caracteristicas</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                  <!-- -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6">OFERTA</div>
+                                  <!-- Product image-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 3.png" alt="Producto Destacado 3" />
+                                  <!-- Product details-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre del producto-->
+                                          <h5 class="fw-bolder fs-3">Samsung 980 Pro SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: MZ-V8P2T0B/AM <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <!-- Clasificacion en forma de estrellas-->
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                          </div>
+                                          <p class="fs-5"> valoracion 10/10</p>
+                                          <!-- Precio Del Producto-->
+                                          <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$452.000 CLP</span>
+                                          <span class="text-danger fs-2 fw-bolder">$440.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/115168-samsung-980-pro-2-tb-mz-v8p2t0bam" target="_blank">Caracteristicas</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen Del Producto-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 4.png" alt="Producto Destacado 4" />
+                                  <!-- detalles de la carta-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre Del producto-->
+                                          <h5 class="fw-bolder fs-3">Gigabyte Aorus SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: GP-ASM2NE6200TTTD <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <!-- Estrellas de clasificacion -->
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-half"></div>
+                                          </div>
+                                          <p class="fs-5"> valoracion 9/10</p>
+                                          <!-- Precio Del Producto-->
+                                          <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$485.000 CLP</span>
+                                          <span class="text-danger fs-2 fw-bolder">$460.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/118834-gigabyte-aorus-2-tb-gp-asm2ne6200tttd" target="_blank">Caracteristicas</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                  <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen Del producto-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 5.png" alt="Producto Destacado 5" />
+                                  <!-- Detalles-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre Del Producto-->
+                                          <h5 class="fw-bolder fs-3">Gigabyte AORUS Gen4 SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: GP-AG70S1TB <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <!-- Valoracion-->
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-half"></div>
+                                        </div>
+                                        <p class="fs-5"> valoracion 9/10</p>
+                                          <!-- Precio Del Producto-->
+                                          <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$305.000 CLP</span>
+                                          <span class="text-danger fs-2 fw-bolder">$290.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/118833-gigabyte-aorus-gen4-1-tb-gp-ag70s1tb" target="_blank">Caracteristicas</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                  <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen Del Producto-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 6.png" alt="Producto Destacdo 6" />
+                                  <!-- Detalles de la carta-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre Del Producto-->
+                                          <h5 class="fw-bolder fs-3">Team T-Force Cardea A440 SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: TM8FPZ001T0C327 <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-fill"></div>
+                                            <div class="bi-star-half"></div>
+                                        </div>
+                                        <p class="fs-5"> valoracion 9/10</p>
+                                        
+                                        <!-- Precio Del Producto-->
+                                        <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$265.000 CLP</span>
+                                        <span class="text-danger fs-2 fw-bolder">$250.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/120811-team-t-force-cardea-a440-1-tb-tm8fpz001t0c327" target="_blank">Caracteristicas</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                  <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen Del Producto-->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 7.png" alt="Producto Destacado 7" />
+                                  <!-- Detalles de la carta-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre Del Producto-->
+                                          <h5 class="fw-bolder fs-3">Gigabyte Aorus SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: GP-ASM2NE6100TTTD <br> Bus:
+                                            PCI Express 4.0</h6>
+                                          <!-- Product reviews-->
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-half"></div>
+                                              <div class="bi-star"></div>
+                                          </div>
+                                          <p class="fs-5"> valoracion 7/10</p>
+                                          <!-- Precio Del Producto-->
+                                          <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$220.000 CLP</span>
+                                          <span class="text-danger fs-2 fw-bolder">$210.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/68881-gigabyte-aorus-1-tb-gp-asm2ne6100tttd" target="_blank">Add to cart</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col mb-5">
+                              <div class="card h-100">
+                                  <!-- Agregar texto  de oferta en la esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Imagen del producto -->
+                                  <img class="card-img-top py-4" src="imagenes/Destacados/destacado 8.png" alt="Producto Destacado 8" />
+                                  <!-- Detalles nombres anuncios de la carta-->
+                                  <div class="card-body p-4">
+                                      <div class="text-center">
+                                          <!-- Nombre Del Producto-->
+                                          <h5 class="fw-bolder fs-3">Gigabyte Aorus SSD M.2 NVMe</h5>
+                                          <h6 class="fw-bolder fs-4"> Capacidad: 3800 GB <br> Modelo: SSDSC2KB038T701 <br> Bus:
+                                            SATA 3 (6.0 Gb/s)</h6>
+                                          <!-- Puntuacion del producto-->
+                                          <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-fill"></div>
+                                              <div class="bi-star-half"></div>
+                                              <div class="bi-star"></div>
+                                          </div>
+                                          <p class="fs-5"> valoracion 9/10</p>
+                                          <!-- Precio Del Producto-->
+                                          <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$1.370.000 CLP</span>
+                                          <span class="text-danger fs-2 fw-bolder">$1.345.000 CLP</span>
+                                      </div>
+                                  </div>
+                                  <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/110275-intel-dc-s4500-3800-gb-ssdsc2kb038t701" target="_blank">Caracteristicas</a></div>
+                                  </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="py-5" id="SSDM2NVMe" >
+          <div class="container- py-5">
+            <div class="row">
+                <div>
+                  <h2 id="categoria-1" class="text-center text-white py-3"   >
+                     SSD M.2 NVMe</h2>
+              </div>
+            </div>
+              <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center py-4">
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                        <!-- Agregar texto esquina superior derecha de la carta -->
+                        <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 1.png" alt="SSDM2NVMe Producto 1" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Blue SN550 SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 250 GB <br> Modelo: WDS250G2B0C <br> Bus:
+                                    PCI Express 3.0</h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$42.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$40.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/71320-western-digital-blue-sn550-250-gb-wds250g2b0c" target="_blank" >Caracterisitcas</a></div> 
+                          </div> 
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                        <!-- Agregar texto esquina superior derecha de la carta -->
+                        <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 2.png" alt="SSDM2NVMe Producto 2" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">A-DATA XPG Spectrix S40G RGB SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 256 GB <br> Modelo: AS40G-256GT-C <br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$46.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$43.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/65396-a-data-xpg-spectrix-s40g-rgb-256-gb-as40g-256gt-c" target="_blank" >Caracteristicas</a></div> 
+                          </div>   
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                        <!-- Agregar texto esquina superior derecha de la carta -->
+                        <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 3.png" alt="SSDM2NVMe Producto 3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Crucial P2 SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 500 GB <br> Modelo: CT500P2SSD8<br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$53.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$50.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="" target="_blank">Caracteristicas</a></div> 
+                          </div>   
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 4.png" alt="SSDM2NVMe Producto 4" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Hikvision E2000 SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 512 GB <br> Modelo: HS-SSD-E2000/512G <br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $71.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/83390-crucial-p2-500-gb-ct500p2ssd8" target="_blank">Caracteristicas</a></div> 
+                          </div>   
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Agregar texto esquina superior derecha de la carta -->
+                          <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 5.png" alt="SSDM2NVMe Producto 5" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">A-DATA XPG Spectrix S40G RGB SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: AS40G-1TT-C <br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 6/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$142.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$136.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/65395-a-data-xpg-spectrix-s40g-rgb-1-tb-as40g-1tt-c" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Agregar texto esquina superior derecha de la carta -->
+                          <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 6.png" alt="SSDM2NVMe Producto 6" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Asgard AN3 SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: ASNVP1TB3DDC1SGBR <br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$146.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$140.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/87306-asgard-an3-1-tb-asnvp1tb3ddc1sgbr" target="_blank" >Caracteristicas</a></div>  
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Agregar texto esquina superior derecha de la carta -->
+                          <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 7.png" alt="SSDM2NVMe Producto 7" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Corsair MP400 SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: CSSD-F2000GBMP400R2 <br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$275.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$264.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/120626-corsair-mp400-2-tb-cssd-f2000gbmp400r2" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Agregar texto esquina superior derecha de la carta -->
+                          <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2NVMe/SSDM2NVMe 8.png" alt="SSDM2NVMe Producto 8" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Samsung 970 Evo Plus SSD M.2 NVMe</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: MZ-V7S2T0B/AM <br> Bus:
+                                    PCI Express 3.0 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$397.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$381.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/66410-samsung-970-evo-plus-2-tb-mz-v7s2t0bam" target="_blank" >Caracteristicas</a></div>   
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="py-5" id="SSDSATA" >
+          <div class="container- py-5">
+            <div class="row">
+                <div>
+                  <h2 id="categoria-2" class="text-center text-white py-3"  >
+                     SSD SATA </h2>
+              </div>
+            </div>
+              <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center py-4">
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 1.png" alt="SSD SATA PRODUCTO 1" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Blue SSD SATA   </h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 250 gb <br> Modelo: WDS250G2B0A <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $37.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/40012-western-digital-blue-3d-nand-250-gb-wds250g2b0a" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 2.png" alt="SSD SATA producto 2" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Gigabyte SSD <br>SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 256 gb <br> Modelo: GP-GSTFS31256GTND <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $37.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/62199-gigabyte-256-gb-gp-gstfs31256gtnd" target="_blank" >Caracteristicas</a></div> 
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                        <!-- Agregar texto esquina superior derecha de la carta -->
+                        <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 3.png" alt="SSD SATA Producto 3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Team T-Force Delta TUF RGB SSD SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 500 GB <br> Modelo: T253TT500G3C313 <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$90.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$85.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Agregar texto esquina superior derecha de la carta -->
+                          <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 4.png" alt="SSD SATA Producto 4" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Team T-Force Delta S RGB SSD SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 500 GB <br> Modelo: T253TT500G3C313 <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$90.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$85.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/54580-team-t-force-delta-s-rgb-500-gb-t253tr500g3c312" target="_blank" >Caracteristicas</a></div>  
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 5.png" alt="SSD SATA Producto 5" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Kingston KC600 SSD SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 1 TB <br> Modelo: SKC600/1024G <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $140.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto " href="https://www.solotodo.cl/products/69857-kingston-kc600-1-tb-skc6001024g" target="_blank" >Agregar al carrito</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 6.png" alt="SSD SATA Producto 6" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Agregar texto esquina superior derecha de la carta -->
+                                  <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Samsung 870 QVO SSD SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 1 TB <br> Modelo: MZ-77Q1T0B <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$180.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$172.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 7.png" alt="SSD SATA Producto 7" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Silicon Power A55 SSD SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 2 TB <br> Modelo: SP002TBSS3A55S25 <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 8/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $237.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- agrega un accion de ver caracteristicas de momento (ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/118411-silicon-power-a55-2-tb-sp002tbss3a55s25" target="_blank" >Caracteristicas</a></div>   
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Agregar texto esquina superior derecha de la carta -->
+                          <div id="promociones" class="badge bg-dark text-white position-absolute fs-6" >OFERTA</div>
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDSATA/SSDSATA 8.png" alt="SSD SATA Producto 8" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Crucial BX500 SSD SATA</h5>
+                                  <h6 class="fw-bolder fs-5"> Capacidad: 2 TB <br> Modelo: CT2000BX500SSD1 <br> Formato:
+                                    2.5"   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 7/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <span class="text-danger fw-bolder fs-6 text-muted text-decoration-line-through">$245.000 CLP</span>
+                                  <span class="text-danger fs-2 fw-bolder">$239.000 CLP</span>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/75041-crucial-bx500-2-tb-ct2000bx500ssd1" target="_blank" >Caracteristicas</a></div>   
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="py-5" id="SSDM2" >
+          <div class="container-fluid py-5">
+            <div class="row">
+                <div>
+                  <h2 id="categoria-3" class="text-center text-white py-3" >
+                     SSD M.2 SATA 3 </h2>
+              </div>
+            </div>
+            <!--- Se puede modificar la cantidad de cartas por seccion en el row-cols-xl-5 -->
+              <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center py-4">
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA 3 1.png" alt="Producto 1 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3"> Western Digital Green SSD M.2 SATA 3 </h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 250 gb <br> Modelo: WDS240G2G0B   </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 7/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $31.000 CLP </p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto " href="https://www.solotodo.cl/products/42995-western-digital-green-240-gb-wds240g2g0b" target="_blank" >Caracterisitcas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA 3 2.png" alt="Producto 2 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Green SSD M.2 SATA 3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 480 GB <br> Modelo: WDS240G2G0B </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $50.000 CLP </p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/51325-western-digital-green-480-gb-wds480g2g0b" target="_blank" >Agregar al carrito</a></div> 
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA 3 3.png" alt="Producto 3 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Team MS30 SSD M.2 SATA3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 512 GB <br> Modelo: TM8PS7512G0C101 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star"></div>
+                                      <div class="bi-star"></div>
+                                      <div class="bi-star"></div>
+                                      <div class="bi-star"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 0/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$60.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/54909-team-ms30-512-gb-tm8ps7512g0c101" target="_blank" >Caracterisitcas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA 3 4.png" alt="Producto 4 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3"> Western Digital Red SSD M.2 SATA3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 512 GB <br> Modelo: WDS500G1R0B  </h6>
+                                  <!-- Valoracion del producto-->
+                                  
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 0/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$60.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/73547-western-digital-red-sa500-500-gb-wds500g1r0b" target="_blank" >
+                                Caracteristicas</a></div>  
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA3 5.png" alt="Producto 5 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Blue 3D SSD M.2 SATA3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: WDS100T2B0B </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 7/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$98.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/42076-western-digital-blue-3d-nand-1-tb-wds100t2b0b" target="_blank">Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA3 6.png" alt="Producto 6 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Red SSD M.2 SATA3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 1 TB <br> Modelo: WDS100T2B0B </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$173.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA3 7.png" alt="Producto 7 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Blue 3D SSD M.2 SATA3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: WDS100T2B0B </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                      <div class="bi-star"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 7/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$237.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/43976-western-digital-blue-3d-nand-2-tb-wds200t2b0b" target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2SATA3/SSD M.2 SATA3 8.png" alt="Producto 8 SSD M2 SATA3" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">Western Digital Red SSD M.2 SATA3</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad: 2 TB <br> Modelo: WDS200T1R0B </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 10/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$292.000 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/73550-western-digital-red-sa500-2-tb-wds200t1r0b" target="_blank" >Caracteristicas</a></div>   
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="py-5" id="SSDM2PCIe" >
+          <div class="container- py-5">
+            <div class="row">
+                <div>
+                  <h2 id="categoria-4" class="text-center text-white py-3"  >
+                     SSD M.2 Tarjeta PCIe </h2>
+              </div>
+            </div>
+              <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center py-4">
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2PCIe/SATAPCIe1.png" alt="Producto 1 ssd m2 tarjeta pcie" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">SSD M.2 Tarjeta PCIe HP</h5>
+                                  <h6 class="fw-bolder fs-4"> Capacidad 256 GB </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p fs-5>valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2">$206.720 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://www.solotodo.cl/products/115873-hp-256-gb-y7b60aa " target="_blank" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="imagenes/SSDM2PCIe/SATAPCIe2.png" alt="Producto 2 ssd m2 tarjeta pcie" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder fs-3">SSD M.2 PCIe Western Digital Black</h5>
+                                  <h6 class="fw-bolder fs-34"> Capacidad: 2TB <br>Modelo: AN1500 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10 </p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $308.990 CLP </p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" >Caracteristicas</a></div> 
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="/Proyecto1/imagenes/SSDM2PCIe/SATAPCIe3.png" alt="Producto 3 ssd m2 tarjeta pcie" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder">SSD M.2 PCIe Western Digital Black </h5>
+                                  <h6 class="fw-bolder"> Capacidad: 2TB <br>Modelo: AN1500 </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-half"></div>
+                                  </div>
+                                  <p class="fs-5"> valoracion 9/10</p>
+                                  <!-- Precio Del Producto-->
+                                  <p class="text-danger fw-bolder fs-2"> $596.900 CLP</p>
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" >Caracteristicas</a></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col mb-5 ">
+                      <div class="card h-100">
+                          <!-- Imagen del producto -->
+                          <img class="card-img-top py-4" src="/Proyecto1/imagenes/SSDM2PCIe/pronto.png" alt="producto por llegar" />
+                          <!-- Detalles posicion texto-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Nombre del producto-->
+                                  <h5 class="fw-bolder">SSD M.2 PCIe Kingston 250GB</h5>
+                                  <h6 class="fw-bolder"> Por llegar </h6>
+                                  <!-- Valoracion del producto-->
+                                  <div>
+                                    <div>
+                                      <div class="d-flex justify-content-center small text-warning mb-2 fs-4">
+                                        <div class="bi bi-star"></div>
+                                        <div class="bi bi-star"></div>
+                                        <div class="bi bi-star"></div>
+                                        <div class="bi bi-star"></div>
+                                        <div class="bi bi-star"></div>
+                                    </div>
+                                    <p class="fs-5">valoracion ?/10</p>
+                                    </div>
+                                  </div>
+                                  <!-- Precio Del Producto-->
+                                  <h6> Rango de Precio</h6>
+                                  <p class="text-danger fw-bolder fs-3">$150.000 - 200.000 CLP </p>
+                                  
+                              </div>
+                          </div>
+                          <!-- Ver caracteristicas(de momento ya que no existe carrito de compra)-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" >Caracteristicas</a></div>  
+                          </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+      
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5  d-lg-block ">
+          <span>Siguenos En Nuestras Redes Sociales:</span>
+        </div>
+        <div>
+          <a href="" class="me-4 ">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="" class="me-4 ">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="" class="me-4 ">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="" class="me-4 ">
+            <i class="bi bi-discord"></i>
+          </a>
+          <a href="" class="me-4 ">
+            <i class="bi bi-twitch"></i>
+          </a>
+        </div>
+      </section>
+      <section>
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Wuasho Computer Store
+                </h6>
+                <p>
+                  Somos una pequeña empresa encargada y especializada en la venta de hardware para computadores
+                  tantos como para notebook como para PC de torre
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">SSD M.2 NVMe</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">SSD M.2 SATA</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">SSD M.2 </a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">SSD M.2 PCIe</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Nosotros</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Servicios</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Contacto</a>
+                </p>
+
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contactanos
+                </h6>
+                <p><i class="fas fa-home me-3"></i> WuashoLandia, WL 943, AUS</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  WuashoComputer@store.cl
+                </p>
+                <p><i class="fas fa-phone me-3"></i> +569-15975346</p>
+                <p><i class="fas fa-print me-3"></i> +569-75315978</p>
+              </div>
+              
+            </div>
+            
+          </div>
+
+      </section>
+      <!-- Copyright -->
+      <div id="fondo-footer" class="text-center p-4" >© 2021 Copyright:
+        <a class="text-reset fw-bold">Jorge Reyes Celpa</a>
+      </div>
+  
+      </footer>
+        
+        
+
+       
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+</html>
